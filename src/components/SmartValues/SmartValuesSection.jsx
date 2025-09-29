@@ -24,7 +24,7 @@ export default function ValuesSection() {
             </h2>
 
             {/* Grid wrapper */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mx-4 sm:mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mx-4 sm:mx-auto px-[20px]">
                 {values.slice(0, 2).map((val, i) => (
                     <div key={i} className="flex justify-center">
                         <ValueCard {...val} />

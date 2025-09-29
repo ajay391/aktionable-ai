@@ -11,7 +11,7 @@ export default function CTADemo() {
           Contact us to schedule a personalized demo or discuss your use case with our experts.
         </h2>
         
-        <Button href="#" className="text-xl">Contact Now</Button>
+        <Button href="/contact" className="text-xl">Contact Now</Button>
       </div>
     </section>
   )
